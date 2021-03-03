@@ -1,10 +1,10 @@
 import React from "react";
-import "./header.css";
+import "./body.css";
 
-function Header () {
+function Body () {
     return (
-        <h1> Employee Directory</h1>
+        <h1> This is the body</h1>
     )
 }
 
-export default Header;
+export default Body;
