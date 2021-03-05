@@ -22,7 +22,6 @@ function Table() {
                 <thead class="thead-dark">
                     <tr>
                         <th scope="col">Name</th>
-                        <th scope="col">Title</th>
                         <th scope="col">Email</th>
                         <th scope="col">Number</th>
                     </tr>

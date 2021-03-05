@@ -5,9 +5,9 @@ function Body (props) {
     return (
         <tr>
         <th scope="row">{props.number}</th>
-        <td>{props.employeeData.name.title}</td>
-        <td>the Bird</td>
-        <td>@twitter</td>
+        <td>{props.employeeData.name.first} {props.employeeData.name.last}</td>
+        <td>{props.employeeData.email}</td>
+        <td>{props.employeeData.number}</td>
     </tr>
     )
 }
